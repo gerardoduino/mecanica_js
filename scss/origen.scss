@@ -1,0 +1,36 @@
+/*IMPORT*/
+
+@import "bootstrap/bootstrap.scss";
+
+
+.servicios {
+    padding: 6%;
+}
+
+.separacion {
+    margin-top: 5%;
+}
+
+/*VARIABLES*/
+
+$tamaño: 100%;
+
+
+/*ANIDAMIENTO*/
+
+.mapa {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+
+    iframe {
+    position: absolute;
+    top:0;
+    left: 0;
+    width: $tamaño;
+    height: $tamaño;
+}
+}
+
+
